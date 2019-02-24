@@ -163,7 +163,7 @@ namespace kdgparking.BL
                             Tarief = decimal.Parse(para[8]),
                             BeginDatum = Int32.Parse(para[9]) // <-- geen datetime, later omzetten
                             //EindDatum = para[10], // <-- veld kan leeg zijn?
-                            //Waarborg = para[11],
+                            //Waarborg = para[11], //
                             
                         };
                         for (int i = 0; i < para.Length; i++)
